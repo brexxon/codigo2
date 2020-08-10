@@ -1,0 +1,6 @@
+*--- Configuración básica para la aplicación "Presenta"
+
+*--- Esto es importante para que al inicio no
+*--- se vea la pantalla de inicio de VFP
+SCREEN = OFF
+COMMAND = _Screen.Visible = .T.

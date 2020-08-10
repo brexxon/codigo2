@@ -1,0 +1,12 @@
+Error  : 701 , Error de comunicacion, Estado
+
+OffLine: 0
+PocoPapel: 0
+GavetaAbierta: 0
+SinPapel: 0
+ErrorImpresora: 0
+MemoriaFiscalLlena: 0
+MemoriaFiscalCasiLlena: 0
+Fiscalizada: 0
+DocumentoAbierto: 0
+DocumentoNoFiscalAbierto: 0

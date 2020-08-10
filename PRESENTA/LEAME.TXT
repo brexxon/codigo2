@@ -1,0 +1,42 @@
+*-----------------------------------------------------------------------------
+*--- Clase: PRESENTA.VCX
+*--- Versión: 2
+*--- Fecha: 2000.04.20
+*--- Autor: Luis María Guayán
+*-----------------------------------------------------------------------------
+Esta clase muestra un formulario de presentación para nuestras aplicaciones.
+Se la invoca y muestra antes de comenzar a hacer los seteos de la aplicación.
+
+Al ejecutar la sentencia:
+
+oPresenta = CREATEOBJECT("Presenta", "Por siempre Ayrton", "Presenta.jpg")
+
+envio dos parámetros que son:
+
+1. El título de nuestra aplicación que se mostrará en el Caption y en el 
+centro del formulario.
+
+2. La imagen de fondo del formulario. El formato debe ser .BMP y en VFP 6
+esta puede ser .JPG ó .GIF.
+
+Para probar la clase, descomprimir todos los archivos en un mismo directorio
+(Presenta.* ; Config.Fpw y Leame.Txt)
+y ejecutar:
+
+	DO Presenta.PRG
+
+El archivo Presenta.PRG es un ejemplo de programa principal para nuestra
+aplicación.
+
+Cuando generemos el archivo ejecutable, es conveniente incluir el archivo 
+CONFIG.FPW con las siguientes líneas:
+
+	SCREEN = OFF
+	COMMAND = _Screen.Visible = .T.
+
+Con estos comandos no se muestra al inicio la pantalla principal de
+Visual FoxPro.
+
+*-----------------------------------------------------------------------------
+*--- Fin del archivo Leame.Txt
+*-----------------------------------------------------------------------------

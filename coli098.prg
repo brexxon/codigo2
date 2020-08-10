@@ -1,0 +1,14 @@
+*** 
+*** ReFox X  #UK933629  MANRIQUE ORELLANA  MANSOFT SYSTEMS [VFP80]
+***
+@ 0, 0 SAY " " + CHR(27) + '@'
+SET PRINTER TO
+SET PRINTER OFF
+SET DEVICE TO SCREEN
+SET CONSOLE ON
+RETURN
+ENDPROC
+**
+*** 
+*** ReFox - retrace your steps ... 
+***
