@@ -1,0 +1,9 @@
+
+Structure for table:                       \\SERVEX\TPVSERV\TIPOSCOMPROBANTES.DBF
+Number of data records:       5       
+Date of last update:          08/12/20
+ Code Page:                   1252    
+                Field        Field Name                                                            Type                                                                                                   Width                           Dec                   Index   Collate                                            Nulls                               Next                               Step
+                    1        ID                                                                    Integer (AutoInc)                                                                                          4                                                                                                               No                                  6                                  1
+                    2        TIPO                                                                  Character                                                                                                 10                                                                                                               No
+** Total **                                                                                                                                                                                                  15
