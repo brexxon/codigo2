@@ -10,7 +10,7 @@ SET CLASSLIB TO Presenta.vcx ADDITIVE
 *---  Parámetros: tcTitulo: Título de la aplicación
 *---              tcImagen: Imagen de fondo del formulario (.BMP, .JPG ó .GIF)
 
-oPresenta = CREATEOBJECT("presenta", "www.br-exxon.net")
+oPresenta = CREATEOBJECT("presenta", "www.brexxon.net.ar","descarga.gif")
 oPresenta.SHOW
 
 _SCREEN.VISIBLE = .F.

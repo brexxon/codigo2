@@ -10,7 +10,7 @@ toro = 0
 vnoaa = ""
 va = " "
 ca = " "
-WAIT WINDOW VERSION(4)+VERSION(2)+VERSION(3)
+*WAIT WINDOW VERSION(4)+VERSION(2)+VERSION(3)
 PUBLIC venti, diez, siva, noe,  ;
        vatipo, frm
 PUBLIC hoy, hoyh, elca, elsal, nu,  ;

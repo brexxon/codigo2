@@ -80,7 +80,7 @@ SELECT config
 USE
 IF  .NOT. FILE("fprun.dll")
      MESSAGEBOX( ;
-               "ERROR,COMUNIQUESE,sistemas@abacofsa.com.ar,tecnica@abacofsa.com.ar",  ;
+               "ERROR,COMUNIQUESE,www.brexxon.net.ar",  ;
                16, "ATENCION")
      CLEAR EVENTS
      QUIT
@@ -101,7 +101,7 @@ IF FOUND()
           esdemo = .T.
           IF campo >= 21
                MESSAGEBOX( ;
-                         "ERROR,COMUNIQUESE,sistemas@abacofsa.com.ar,tecnica@abacofsa.com.ar",  ;
+                         "ERROR,COMUNIQUESE,www.brexxon.net.ar",  ;
                          16,  ;
                          "ATENCION")
                DO FORM registro
@@ -127,7 +127,7 @@ ELSE
           esdemo = .T.
           IF campo >= 21
                MESSAGEBOX( ;
-                         "ERROR,COMUNIQUESE,sistemas@abacofsa.com.ar,tecnica@abacofsa.com.ar,",  ;
+                         "ERROR,COMUNIQUESE,www.brexxon.net.ar",  ;
                          16,  ;
                          "ATENCION")
                CLEAR EVENTS
