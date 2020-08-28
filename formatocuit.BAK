@@ -1,0 +1,17 @@
+LPARAMETERS cCUIT
+
+cCUIT = AllTrim(cCUIT)
+
+
+	IF !Empty(cCUIT)
+		IF Len(cCUIT) = 13
+			cCUIT = Left(cCUIT,2)+"-"+SubStr(cCUIT,4,8)+"-"+Right(cCUIT,1)
+		ELSE
+			cCUIT = Left(cCUIT,2)+"-"+SubStr(cCUIT,3,8)+"-"+Right(cCUIT,1)
+		ENDIF
+	ENDIF
+ 
+
+WAIT WINDOW ccuit
+	
+RETURN cCUIT
