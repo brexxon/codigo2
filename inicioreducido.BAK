@@ -74,7 +74,7 @@ tentacion = Alltrim(config.Local)
 negativo = Alltrim(config.fax)
 Do noabre2vc
 Modify Window Screen Title  ;
-'SISTEMA PUNTO DE VENTA - BREXX'
+'SISTEMA PUNTO DE VENTA - WWW.brexxon.net.ar'
 *!*		'SISTEMA GESTION COMERCIAL' +  ;
 *!*		" " + tentacion
 Select config

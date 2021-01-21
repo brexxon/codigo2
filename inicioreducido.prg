@@ -79,70 +79,70 @@ Modify Window Screen Title  ;
 *!*		" " + tentacion
 Select config
 Use
-If  .Not. File("fprun.dll")
-	Messagebox( ;
-		"ERROR,COMUNIQUESE,www.brexxon.net.ar",  ;
-		16, "ATENCION")
-	Clear Events
-	Quit
-Endif
-Set Status Bar Off
-Set Console Off
-Use fprun.Dll
-Public maquina
-maquina = Substr(Sys(0), 1, 10)
-Select fprun
-Goto Top
-Locate For Alltrim(fprun.nombre) =  ;
-	maquina
-If Found()
-	If lpvolnumber <> fprun.dia
-		lacu = 21 - fprun.campo
-		Do Form registro
-		esdemo = .T.
-		If campo >= 21
-			Messagebox( ;
-				"ERROR,COMUNIQUESE,www.brexxon.net.ar",  ;
-				16,  ;
-				"ATENCION")
-			Do Form registro
-			Clear Events
-			Quit
-		Else
-			Local trae
-			trae = 0
-			trae = fprun.campo
-			Replace fprun.campo  ;
-				WITH trae +  ;
-				1
-		Endif
-	Endif
-Else
-	Select fprun
-	Append Blank
-	Replace fprun.nombre With  ;
-		maquina
-	If lpvolnumber <> fprun.dia
-		lacu = 21 - fprun.campo
-		Do Form registro
-		esdemo = .T.
-		If campo >= 21
-			Messagebox( ;
-				"ERROR,COMUNIQUESE,www.brexxon.net.ar",  ;
-				16,  ;
-				"ATENCION")
-			Clear Events
-			Quit
-		Else
-			Local trae
-			trae = 0
-			trae = fprun.campo
-			Replace fprun.campo  ;
-				WITH trae +  ;
-				1
-		Endif
-	Endif
-Endif
+*!*	If  .Not. File("fprun.dll")
+*!*		Messagebox( ;
+*!*			"ERROR,COMUNIQUESE,www.brexxon.net.ar",  ;
+*!*			16, "ATENCION")
+*!*		Clear Events
+*!*		Quit
+*!*	Endif
+*!*	Set Status Bar Off
+*!*	Set Console Off
+*!*	Use fprun.Dll
+*!*	Public maquina
+*!*	maquina = Substr(Sys(0), 1, 10)
+*!*	Select fprun
+*!*	Goto Top
+*!*	Locate For Alltrim(fprun.nombre) =  ;
+*!*		maquina
+*!*	If Found()
+*!*		If lpvolnumber <> fprun.dia
+*!*			lacu = 21 - fprun.campo
+*!*			Do Form registro
+*!*			esdemo = .T.
+*!*			If campo >= 21
+*!*				Messagebox( ;
+*!*					"ERROR,COMUNIQUESE,www.brexxon.net.ar",  ;
+*!*					16,  ;
+*!*					"ATENCION")
+*!*				Do Form registro
+*!*				Clear Events
+*!*				Quit
+*!*			Else
+*!*				Local trae
+*!*				trae = 0
+*!*				trae = fprun.campo
+*!*				Replace fprun.campo  ;
+*!*					WITH trae +  ;
+*!*					1
+*!*			Endif
+*!*		Endif
+*!*	Else
+*!*		Select fprun
+*!*		Append Blank
+*!*		Replace fprun.nombre With  ;
+*!*			maquina
+*!*		If lpvolnumber <> fprun.dia
+*!*			lacu = 21 - fprun.campo
+*!*			Do Form registro
+*!*			esdemo = .T.
+*!*			If campo >= 21
+*!*				Messagebox( ;
+*!*					"ERROR,COMUNIQUESE,www.brexxon.net.ar",  ;
+*!*					16,  ;
+*!*					"ATENCION")
+*!*				Clear Events
+*!*				Quit
+*!*			Else
+*!*				Local trae
+*!*				trae = 0
+*!*				trae = fprun.campo
+*!*				Replace fprun.campo  ;
+*!*					WITH trae +  ;
+*!*					1
+*!*			Endif
+*!*		Endif
+*!*	Endif
 Set Date To Dmy
 Set ENGINEBEHAVIOR 70
 Public variable, pctexto, redir,  ;
