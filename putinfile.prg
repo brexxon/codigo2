@@ -1,27 +1,3 @@
-**********************************************************************
-*
-* Funcion: LOG_GRAB
-*
-* Graba una linea en el log (en raizLOG.TXT)
-*
-* Parametros:
-*
-*  tcTexto   - texto a grabar
-*
-* Ejemplos:
-*
-*   ret = LOG_GRAB("Inicio de Programa")
-*
-* Retorno:
-*
-*        .T.    Grabacion correcta
-*        .F. Error en la grabacion
-*
-* Nota:
-*
-**********************************************************************
-
-&&FUNCTION PUT_GRAB
 
 PARAMETERS tcTexto,cFile
 LOCAL plRet, pnFich, pnFichn, pnFtama, pnTammax, pnLongAc

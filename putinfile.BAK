@@ -21,7 +21,7 @@
 *
 **********************************************************************
 
-FUNCTION PUT_GRAB
+&&FUNCTION PUT_GRAB
 
 PARAMETERS tcTexto,cFile
 LOCAL plRet, pnFich, pnFichn, pnFtama, pnTammax, pnLongAc
