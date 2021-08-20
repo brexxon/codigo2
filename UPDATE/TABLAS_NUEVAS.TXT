@@ -1,0 +1,38 @@
+TABLAS CON MOFIFICACIONES O NUEVAS
+
+TPV
+===
+CONFIG
+------
+se agregan tres campos
+cajae n 2
+esfiscal l 1
+eselectronica l 1
+
+
+
+
+
+
+
+
+
+TPVSERV
+=======
+
+FAC_CABE
+--------
+nro_fact n 12
+
+
+
+
+
+TIPOSCOMPROBANTES.DBF
+---------------------
+se agregan tres campos
+codigo(para codigo del comprobante) C 3
+medio(si es fiscal o no fiscal) C 15
+habilitado L 1
+**Precargar Registro PRESUPUESTO
+TIPO=PRE,DETALLE=PRESUPUESTO,LETRA=P,MEDIO=NOFISCAL
