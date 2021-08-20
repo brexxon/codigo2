@@ -1,0 +1,22 @@
+TPVSERV
+=======
+
+FACT_CABE
+---------
+Agregar campos factura electronica
+cae  c  14
+cae_vece d 8
+electronica l 1
+
+TIPOSCOMPROBANTES
+-----------------
+CARGAR DATOS
+TEB FACT ELECTRONICA T 
+FEA FACT ELECTRONICA A
+
+TPVABAC0
+========
+
+CONFIG
+------
+DIRECCION C 30, ELTITULO C 60, IVA C 30 , LOCAL C 30,modo_e c 1,certificado_e c 20,clave_e c 20, licencia_e c 20
