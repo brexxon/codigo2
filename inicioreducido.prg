@@ -183,6 +183,7 @@ Set Multilocks On
 Set Readborder Off
 Set Sysmenu To
 Set Status Bar On
+Set procedure to fe.prg additive
 Public archi, cualera, yata, c,  ;
 	paga,cMarcaIFiscal
 cMarcaIFiscal="EPSON"
